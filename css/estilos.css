@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+#sectionUno {
+    background-image: url("../recursos/imagenes/hombre_pesas.webp");
+    background-size: cover;
+    display: flex;
+}
+
+#divPrimero {
+    height: 50%;
+    margin-left: 5%;
+}
+
+#tituloUno {
+    color: red;
+    font-size: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+#pUno {
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    margin-bottom: 8%;
+}
+
+#botonUno {
+    color: white;
+    background-color: red;
+    width: 505px;
+    height: 110px;
+    font-size: 40px;
+    border: none;
+    padding: 12px 35px;
+    align-items: center;
+    opacity: 0.8;
+
+}
+
+#pDos {
+    color: grey;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    opacity: 0.8;
+
+}
+
+#sectionDos {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 1300px;
+}
+
+#tituloDos {
+    opacity: 0.8;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#pTres {
+    margin-top: 0px;
+    color: white;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    opacity: 0.8;
+    margin-bottom: 80px;
+}
+
+
+#divPadre {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.divHijos {
+    padding-top: 40px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+}
+
+.h1Div {
+    font-size: 40px;
+}
+
+.pDiv {
+    font-size: 30px;
+}
